@@ -3,6 +3,7 @@
     <div class="bg-[url('/background.png')] h-screen w-screen flex">
       <Navbar />
       <NuxtPage />
+      <Footer />
     </div>
   </div>
 </template>

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// const route = useRoute();
 const currentUTCDate = new Date();
 const istTimeInMilliseconds = currentUTCDate.getTime();
 
@@ -12,6 +11,12 @@ const options: Intl.DateTimeFormatOptions = {
 };
 
 const istFormattedDateTime = istDateTime.toLocaleString("en-IN", options);
+
+type Theme = "light" | "dark";
+
+const setColorTheme = (newTheme: Theme) => {
+  useColorMode().preference = newTheme;
+};
 </script>
 
 <template>
@@ -47,7 +52,7 @@ const istFormattedDateTime = istDateTime.toLocaleString("en-IN", options);
       class="absolute m-auto w-screen h-screen flex justify-center items-center"
     >
       <h1
-        class="bg-gradient-to-b from-[#2F2F2F] to-[#101012] bg-clip-text text-transparent font-bold text-[150px] lg:text-[600px]"
+        class="bg-gradient-to-b from-[#2F2F2F] to-[#000] bg-clip-text text-transparent font-bold text-[150px] lg:text-[600px]"
       >
         {{ istFormattedDateTime }}
       </h1>

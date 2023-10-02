@@ -3,7 +3,7 @@
     <nav
       class="p-3 px-10 rounded-2xl flex justify-between items-center w-[50%] bg-[#1C1C1D]"
     >
-      <h1 class="text-white text-4xl font-bold">
+      <h1 class="text-white text-3xl font-bold">
         10eti<span class="text-[#737170]">.xyz</span>
       </h1>
       <ul class="text-white">
