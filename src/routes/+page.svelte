@@ -53,7 +53,7 @@
 		class="absolute m-auto w-screen h-screen flex justify-center items-center transition ease-in-out delay-200"
 	>
 		<h1
-			class="inline-block bg-gradient-to-b dark:from-[#13111A] from-[#D3CFC1] bg-clip-text text-transparent font-bold text-[150px] lg:text-[600px]"
+			class="inline-block dark:text-[#1C1A24] text-[#D3CFC1] font-bold text-[150px] lg:text-[600px] transition ease-in-out delay-200"
 		>
 			{istFormattedDateTime}
 		</h1>

@@ -1,12 +1,18 @@
+<script>
+</script>
+
 <main>
 	<div class="absolute w-screen flex justify-center items-center p-5 z-20">
 		<nav
 			class="p-3 px-10 rounded-2xl grid grid-cols-3 items-center gap-32 bg-[#D3CFC1] dark:bg-[#191720] transition ease-in-out delay-200"
+			data-aos="fade-down"
 		>
 			<h1
 				class="dark:text-white text-black text-3xl font-bold text-left transition ease-in-out delay-200"
 			>
-				10eti<span class="dark:text-[#9CCFD8] text-[#7A7569]">.xyz</span>
+				10eti<span class="dark:text-[#9CCFD8] text-[#7A7569] transition ease-in-out delay-200"
+					>.xyz</span
+				>
 			</h1>
 			<ul class="dark:text-white text-black">
 				<li class="inline mx-5 transition ease-in-out delay-200">Contact</li>
